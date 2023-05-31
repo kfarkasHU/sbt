@@ -35,13 +35,13 @@ export const Input = ({
     <label
       id={id + '-label'}
       htmlFor={id + '-input'}
-      test-id={id + '-label'}
+      data-testid={id + '-label'}
     >
       {label}
     </label>
     <input
       id={id + '-input'}
-      test-id={id + '-input'}
+      data-testid={id + '-input'}
       type='text'
       placeholder={placeholder}
       disabled={isDisabled}
